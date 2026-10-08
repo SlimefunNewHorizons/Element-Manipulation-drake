@@ -1,7 +1,7 @@
 package me.lucasgithuber.elementmanipulation.utils;
 
-import com.github.drakescraft_labs.slimefun4.libraries.dough.skins.PlayerSkin;
-import com.github.drakescraft_labs.slimefun4.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerSkin;
+import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
 import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
