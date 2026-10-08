@@ -2,7 +2,6 @@
 
     import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
     import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-    import lombok.Getter;
     import me.lucasgithuber.elementmanipulation.ElementManipulation;
     import me.lucasgithuber.elementmanipulation.machines.JunctionTable;
     import me.lucasgithuber.elementmanipulation.utils.Categories;
@@ -12,12 +11,13 @@
     import static me.lucasgithuber.elementmanipulation.elements.Elements.*;
 
     public final class Materials {
-    @Getter
-    private static MultiOutputItem emRedstone;
-    @Getter
-    private static MultiOutputItem emLapis;
-    @Getter
-    private static MultiOutputItem emEmerald;
+    public static MultiOutputItem emRedstone;
+    public static MultiOutputItem emLapis;
+    public static MultiOutputItem emEmerald;
+
+    public static MultiOutputItem getEmRedstone() { return emRedstone; }
+    public static MultiOutputItem getEmLapis() { return emLapis; }
+    public static MultiOutputItem getEmEmerald() { return emEmerald; }
 
     public static final SlimefunItemStack WATER_BUCKET = new SlimefunItemStack(
         "EM_WATERBUCKET",

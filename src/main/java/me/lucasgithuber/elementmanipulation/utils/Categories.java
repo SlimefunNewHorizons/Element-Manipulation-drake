@@ -4,7 +4,6 @@ import dev.drake.infinitylib.groups.MultiGroup;
 import dev.drake.infinitylib.groups.SubGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import lombok.experimental.UtilityClass;
 import me.lucasgithuber.elementmanipulation.ElementManipulation;
 import me.lucasgithuber.elementmanipulation.category.DrugsGroup;
 import me.lucasgithuber.elementmanipulation.category.JunctionGroup;
@@ -14,8 +13,8 @@ import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 
-@UtilityClass
 public class Categories {
+    private Categories() {}
     public static final ItemGroup ELEMENTS = new SubGroup(
             "em_elements",
             new CustomItemStack(new ItemStack(Material.PRISMARINE_SHARD), LegacyComponentSerializer.legacySection().serialize
